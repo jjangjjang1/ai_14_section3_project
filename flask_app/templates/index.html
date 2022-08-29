@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   Laptop recommend</strong>
+        </a>
+      </div>
+    </div>
+    <div>
+      <br>
+      </div>
+    <form class="row row-cols-lg-auto g-3 align-items-center" method="post" action="/success">
+      <div class="col-12">
+        <label class="visually-hidden" for="inlineFormInputGroupUsername">숫자만 입력</label>
+        <div class="input-group">
+          <div class="input-group-text">가격</div>
+          <input type="text" name = "price" class="form-control" id="inlineFormInputGroupUsername" placeholder="숫자만 입력"  />
+        </div>
+      </div>
+      <form class="row row-cols-lg-auto g-3 align-items-center">
+        <div class="col-12">
+          <label class="visually-hidden" for="inlineFormInputGroupUsername">숫자만 입력</label>
+          <div class="input-group">
+            <div class="input-group-text">화면크기</div>
+            <input type="text" name = "size" class="form-control" id="inlineFormInputGroupUsername" placeholder="숫자만 입력(인치)" />
+          </div>
+        </div>
+        <form class="row row-cols-lg-auto g-3 align-items-center">
+          <div class="col-12">
+            <label class="visually-hidden" for="inlineFormInputGroupUsername">숫자만 입력(MB)</label>
+            <div class="input-group">
+              <div class="input-group-text">무게</div>
+              <input type="text" name = "weight" class="form-control" id="inlineFormInputGroupUsername" placeholder="숫자만 입력(그램)" />
+            </div>
+          </div>    
+          <form class="row row-cols-lg-auto g-3 align-items-center">
+            <div class="col-12">
+              <label class="visually-hidden" for="inlineFormInputGroupUsername">숫자만 입력</label>
+              <div class="input-group">
+                <div class="input-group-text">램</div>
+                <input type="text" name = "ram" class="form-control" id="inlineFormInputGroupUsername" placeholder="숫자만 입력(MB)" />
+              </div>
+            </div>    
+      <div class="col-12">
+        <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+        <strong>작업성능</strong>
+        <select name = "cpu_score" class="select">
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+          <option value="4">Four</option>
+          <option value="5">Five</option>
+          <option value="6">Six</option>
+          <option value="7">Seven</option>
+          <option value="8">Eight</option>
+        </select>
+      </div>
+      <div class="col-12">
+        <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+        <strong>그래픽성능</strong>
+        <select name = "gpu_score" class="select">
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+          <option value="4">Four</option>
+          <option value="5">Five</option>
+          <option value="6">Six</option>
+          <option value="7">Seven</option>
+          <option value="8">Eight</option>
+        </select>
+      </div>
+      <div class="col-12">
+        <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+        <strong>인터넷성능</strong>
+        <select name = "passmark_score" class="select">
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+          <option value="4">Four</option>
+          <option value="5">Five</option>
+          <option value="6">Six</option>
+          <option value="7">Seven</option>
+          <option value="8">Eight</option>
+        </select>
+      </div>
+    
+      <div class="col-12">
+        <p><strong>귀하께서 노트북을 구매할 때 중요하게 생각하는것을 선택해 주십시오.(Select 3 Levels)</strong></p>
+        <input name = "ai_s" class="single-checkbox"type="checkbox" name="vehicle" value="1">1. 화면<br>
+        <input name = "ai_w" class="single-checkbox" type="checkbox" name="vehicle" value="1">2. 무게<br>
+        <input name = "ai_d" class="single-checkbox" type="checkbox" name="vehicle" value="1">3. 디자인<br>
+        <input name = "ai_c" class="single-checkbox" type="checkbox" name="vehicle" value="1">4. 색상<br>
+        <input name = "ai_l" class="single-checkbox" type="checkbox" name="vehicle" value="1">5. 소음<br>
+        <input name = "ai_u" class="single-checkbox" type="checkbox" name="vehicle" value="1">6. 사용성<br>
+        <input name = "ai_h" class="single-checkbox" type="checkbox" name="vehicle" value="1">7. 발열<br>
+     </div>
+    <br>
+      <div class="col-12">
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+  </form>
+  </body>
+</html>
